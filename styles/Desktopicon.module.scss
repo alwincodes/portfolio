@@ -1,0 +1,19 @@
+.icon_container {
+    padding: 1.2rem 2rem;
+    margin: 0;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: fit-content;
+    transition: all 0.5s ease-in;
+    li {
+        cursor: pointer;
+        list-style-type: none;
+        text-align: center;
+    }
+    span {
+        display: block;
+    }
+}
