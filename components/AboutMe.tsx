@@ -1,13 +1,9 @@
 import React from "react";
 import style from "../styles/Window.module.scss";
-
-type AboutMe = {
-    data: string;
-};
-const AboutMe: React.FC<AboutMe> = ({ data }) => {
+interface AboutMe {}
+const AboutMe: React.FC<AboutMe> = () => {
     return (
         <div className={style.aboutme}>
-            {data}
             <p>
                 Hi my name is alwin mathew, I&apos;m a computer science student
                 currently based in kerala🌴, India.
