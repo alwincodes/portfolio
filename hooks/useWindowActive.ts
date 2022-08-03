@@ -5,6 +5,7 @@ export type ZValStore = {
     aboutme: number;
     help: number;
     myworks: number;
+    certification: number;
 };
 
 const useWindowActive = (): [ZValStore, (arg: keyof ZValStore) => void] => {
@@ -13,6 +14,7 @@ const useWindowActive = (): [ZValStore, (arg: keyof ZValStore) => void] => {
         aboutme: 1,
         help: 1,
         myworks: 1,
+        certification: 1,
     });
 
     const setWindowActive = useCallback<(arg: keyof ZValStore) => void>(

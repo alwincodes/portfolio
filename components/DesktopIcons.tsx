@@ -36,6 +36,15 @@ const DesktopIcons: React.FC<props> = ({
                     />
                     <span>projects</span>
                 </li>
+                <li onDoubleClick={() => handleAppOpen("certification")}>
+                    <Image
+                        src={"/certificate.ico"}
+                        alt="retro icon of an computer"
+                        width={"50rem"}
+                        height={"50rem"}
+                    />
+                    <span>certif..</span>
+                </li>
                 <li onDoubleClick={() => handleAppOpen("contact")}>
                     <Image
                         src={"/Letter.ico"}

@@ -3,9 +3,9 @@ import style from "../styles/Window.module.scss";
 const Projects = () => {
     return (
         <div className={style.myworks}>
-            <h3>academic 🏫</h3>
+            <h2>academic 🏫</h2>
             <div>
-                <h4>book store</h4>
+                <h3>book store</h3>
                 <p>
                     This was my first web project and was built using procedural
                     PHP, working on this project introduced me to different web
@@ -21,7 +21,7 @@ const Projects = () => {
                     skills
                 </p>
             </div>
-            <h3>hobby 💻</h3>
+            <h2>hobby 💻</h2>
             <div>
                 <h4>sort visualizer</h4>
                 <p>

@@ -8,6 +8,7 @@ import useWindowActive from "../hooks/useWindowActive";
 import Help from "./Help";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
+import Certificates from "./certificates";
 
 function Desktop() {
     let [clicked, setClicked] = useState<boolean>(false);
@@ -17,12 +18,14 @@ function Desktop() {
         myworks: false,
         aboutme: false,
         help: false,
+        certification: false,
     });
     let [windowPosition, setWindowPosition] = useState({
         contact: { x: 20, y: 20 },
         myworks: { x: 45, y: 45 },
         aboutme: { x: 40, y: 40 },
         help: { x: 50, y: 50 },
+        certification: { x: 44, y: 44 },
     });
 
     let [isWindowOpen, setIsWindowOpen] = useState({
@@ -30,6 +33,7 @@ function Desktop() {
         myworks: false,
         aboutme: false,
         help: true,
+        certification: false,
     });
 
     let [windowsZValue, setWindowActive] = useWindowActive();
@@ -205,6 +209,21 @@ function Desktop() {
                 windowName="myworks"
             >
                 <Projects />
+            </Window>
+            <Window
+                mouseDownHandler={mouseDownHandler}
+                mouseUpHandler={mouseUpHandler}
+                windowPosition={windowPosition}
+                windowClicked={windowClicked}
+                isWindowOpen={isWindowOpen}
+                setIsWindowOpen={setIsWindowOpen}
+                zValue={windowsZValue.certification}
+                setWindowActive={setWindowActive}
+                initialSize={{ height: 55, width: 48 }}
+                resizable={true}
+                windowName="certification"
+            >
+                <Certificates />
             </Window>
         </div>
     );
