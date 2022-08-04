@@ -5,43 +5,47 @@ const certificates = () => {
     return (
         <div className={style.certificate}>
             <div>
-                <h2>Online Certificates</h2>
+                <h3>Machine Learning</h3>
+                <h5>By Stanford Online</h5>
                 <div>
-                    <h3>Machine Learning</h3>
-                    <h4>Stanford Online</h4>
-                    <div>
-                        <a href="">certificate</a>
-                    </div>
-                    <span>this is a course done by andrew ng</span>
+                    <a
+                        href="https://www.coursera.org/account/accomplishments/verify/ASW237RXG9YE"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        certificate
+                    </a>
                 </div>
-                <div>
-                    <h3>Data Science professional certificate</h3>
-                    <h4>IBM</h4>
-                    <div>
-                        <a href="">certificate</a>
-                    </div>
-                    <span>this is a course done by andrew ng</span>
-                    <div>
-                        <p>this certificate contains 10 courses</p>
-                        <ul>
-                            <li>Python for Data Science, AI & Development</li>
-                            <li>Applied Data Science Capstone</li>
-                            <li>Machine learning with Python</li>
-                            <li>Data Science Methodology</li>
-                            <li>Data Visulaization with Python</li>
-                            <li>Data Analysis with Python</li>
-                            <li>
-                                Databases and SQL for Data Science with Python
-                            </li>
-                            <li>What is Data Science?</li>
-                            <li>Python project for Data Science</li>
-                            <li>Tools for Data Science</li>
-                        </ul>
-                    </div>
-                </div>
+                <span>this is a course done by andrew ng</span>
             </div>
             <div>
-                <h2>Academic Certificates</h2>
+                <h3>Data Science professional certificate</h3>
+                <h5>By IBM</h5>
+                <div>
+                    <a
+                        href="https://www.coursera.org/account/accomplishments/professional-cert/MNB3BV6XJZG3"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        certificate
+                    </a>
+                </div>
+                <span>this is a course done by IBM Online</span>
+                <div>
+                    <p>this certification contains 10 courses</p>
+                    <ul>
+                        <li>Python for Data Science, AI & Development</li>
+                        <li>Applied Data Science Capstone</li>
+                        <li>Machine learning with Python</li>
+                        <li>Data Science Methodology</li>
+                        <li>Data Visulaization with Python</li>
+                        <li>Data Analysis with Python</li>
+                        <li>Databases and SQL for Data Science with Python</li>
+                        <li>What is Data Science?</li>
+                        <li>Python project for Data Science</li>
+                        <li>Tools for Data Science</li>
+                    </ul>
+                </div>
             </div>
         </div>
     );

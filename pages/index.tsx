@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 
 import Desktop from "../components/Desktop";
 import styles from "../styles/General.module.scss";

@@ -219,7 +219,7 @@ function Desktop() {
                 setIsWindowOpen={setIsWindowOpen}
                 zValue={windowsZValue.certification}
                 setWindowActive={setWindowActive}
-                initialSize={{ height: 55, width: 48 }}
+                initialSize={{ height: 55, width: 50 }}
                 resizable={true}
                 windowName="certification"
             >
