@@ -11,6 +11,15 @@ const Projects = () => {
                     PHP, working on this project introduced me to different web
                     technologies like PHP, MySQL, javascript, and CSS
                 </p>
+                <div>
+                    <a
+                        href="https://github.com/alwincodes/bookstore"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        project
+                    </a>
+                </div>
             </div>
             <div>
                 <h4>application management staff module</h4>
@@ -20,6 +29,15 @@ const Projects = () => {
                     JDBC, and this project vastly helped me improve my java
                     skills
                 </p>
+                <div>
+                    <a
+                        href="https://github.com/alwincodes/application-mgmt-staffmodule"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        project
+                    </a>
+                </div>
             </div>
             <h2>hobby 💻</h2>
             <div>
@@ -28,6 +46,24 @@ const Projects = () => {
                     An array sorting application which visualizes different
                     sorting algorithms built using react and typescript
                 </p>
+                <div>
+                    <a
+                        href="https://github.com/alwincodes/Sort-Visualizer"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        project
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://cyborg-sortvisualizer.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        live demo
+                    </a>
+                </div>
             </div>
             <div>
                 <h4>conway&apos;s game of life visualizer</h4>
@@ -41,6 +77,24 @@ const Projects = () => {
                     React.js to create beautiful visualizations. tools used for
                     this project are React.js and TypeScript
                 </p>
+                <div>
+                    <a
+                        href="https://github.com/alwincodes/Conways-game-of-life"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        project
+                    </a>
+                </div>
+                <div>
+                    <a
+                        href="https://alwincodes-conways-gameoflife.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        live demo
+                    </a>
+                </div>
             </div>
         </div>
     );

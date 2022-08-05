@@ -52,7 +52,13 @@
     padding: 0.8rem;
     overflow-y: scroll;
     h2 {
-        color: rgb(5, 103, 105);
+        // color: rgb(5, 103, 105);
+    }
+    a {
+        display: block;
+        color: blue;
+        text-decoration: underline;
+        padding: 0.8rem 0rem;
     }
 }
 
