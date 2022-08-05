@@ -1,5 +1,8 @@
 import React from "react";
 import style from "../styles/Window.module.scss";
+import Image from "next/image";
+import stanfordcertif from "../public/stan-ml-high.jpg";
+import ibmcertif from "../public/ibm.jpg";
 
 const certificates = () => {
     return (
@@ -7,6 +10,12 @@ const certificates = () => {
             <div>
                 <h3>Machine Learning</h3>
                 <h5>By Stanford Online</h5>
+                <div style={{ width: "60%", maxWidth: "500px" }}>
+                    <Image
+                        src={stanfordcertif}
+                        alt="my stanford online certificate"
+                    />
+                </div>
                 <div>
                     <a
                         href="https://www.coursera.org/account/accomplishments/verify/ASW237RXG9YE"
@@ -43,6 +52,9 @@ const certificates = () => {
             <div>
                 <h3>Data Science professional certificate</h3>
                 <h5>By IBM</h5>
+                <div style={{ width: "60%", maxWidth: "500px" }}>
+                    <Image src={ibmcertif} />
+                </div>
                 <div>
                     <a
                         href="https://www.coursera.org/account/accomplishments/professional-cert/MNB3BV6XJZG3"
@@ -76,7 +88,7 @@ const certificates = () => {
                     </p>
                 </span>
                 <div>
-                    <p>this certification contains 10 courses</p>
+                    <p>this certification consists 10 courses</p>
                     <ul>
                         <li>Python for Data Science, AI & Development</li>
                         <li>Applied Data Science Capstone</li>
