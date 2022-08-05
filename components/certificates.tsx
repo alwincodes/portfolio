@@ -10,7 +10,7 @@ const certificates = () => {
             <div>
                 <h3>Machine Learning</h3>
                 <h5>By Stanford Online</h5>
-                <div style={{ width: "60%", maxWidth: "500px" }}>
+                <div style={{ width: "60%", maxWidth: "50rem" }}>
                     <Image
                         src={stanfordcertif}
                         alt="my stanford online certificate"
@@ -52,7 +52,7 @@ const certificates = () => {
             <div>
                 <h3>Data Science professional certificate</h3>
                 <h5>By IBM</h5>
-                <div style={{ width: "60%", maxWidth: "500px" }}>
+                <div style={{ width: "60%", maxWidth: "50rem" }}>
                     <Image
                         src={ibmcertif}
                         alt="my ibm data science professional certificate"

@@ -1,10 +1,23 @@
 import React from "react";
 import style from "../styles/Window.module.scss";
+import Image from "next/image";
+import avatar from "../public/profile.jpg";
 interface AboutMe {}
 const AboutMe: React.FC<AboutMe> = () => {
     return (
         <div className={style.aboutme}>
-            <p>
+            <div
+                style={{
+                    maxWidth: "15rem",
+                }}
+            >
+                <Image
+                    src={avatar}
+                    alt="profile image of alwin mathew"
+                    onClick={() => console.log("hey bro")}
+                />
+            </div>
+            <p style={{ display: "inline-block" }}>
                 Hi my name is alwin mathew, I&apos;m a computer science student
                 currently based in kerala🌴, India.
             </p>

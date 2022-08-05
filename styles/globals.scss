@@ -112,3 +112,10 @@ Medium: 11px
         font-size: 50%;
     }
 }
+
+@media (max-width: 20em) {
+    html,
+    body {
+        font-size: 40%;
+    }
+}

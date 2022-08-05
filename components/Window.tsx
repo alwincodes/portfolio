@@ -115,7 +115,6 @@ const Window: React.FC<props> = ({
             style={dynamicStyle}
             onClick={() => {
                 //if only one window is open dont change z-index
-                console.log(windowName);
                 setWindowActive(windowName);
             }}
         >
