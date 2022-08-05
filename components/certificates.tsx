@@ -16,7 +16,29 @@ const certificates = () => {
                         certificate
                     </a>
                 </div>
-                <span>this is a course done by andrew ng</span>
+                <span>
+                    <p>
+                        Andrew ng's machine learning course was the best online
+                        course's that I have done. It delves into the math
+                        behind machine learning algorithms and has challenging
+                        assignments where we implement the concepts in GNU
+                        Octave.
+                    </p>
+                    <p>
+                        Implementing a neural network to predict numbers from
+                        handwriting using mnist dataset was one of my favourite
+                        parts of this course. It really demystified neural
+                        networks for me.
+                    </p>
+                    <p>the main topics covered in this course are: </p>
+                    <ul>
+                        <li>simple linear regression</li>
+                        <li>multivariate linear regression</li>
+                        <li>support vector machines (SVM)</li>
+                        <li>principal component analysis (PCA)</li>
+                        <li>neural networks</li>
+                    </ul>
+                </span>
             </div>
             <div>
                 <h3>Data Science professional certificate</h3>
@@ -30,7 +52,29 @@ const certificates = () => {
                         certificate
                     </a>
                 </div>
-                <span>this is a course done by IBM Online</span>
+                <span>
+                    <p>
+                        I enjoyed being a part of the IBM Data Science
+                        Specialization course. It was a great experience, this
+                        course has great challenging assignments with real-world
+                        datasets.
+                    </p>{" "}
+                    <p>
+                        {" "}
+                        It starts off with a high-level introduction to data
+                        collection, preparation, and data analysis. Then the
+                        course covers a wide range of topics like data
+                        visualization, SQL for data exploration, and machine
+                        learning.
+                    </p>{" "}
+                    <p>
+                        {" "}
+                        It includes an introduction to libraries like sci-kit
+                        learn, matplotlib, plotty, seaborn, and pandas.
+                        Practical assignments on the IBM cloud platform are also
+                        a good addition.
+                    </p>
+                </span>
                 <div>
                     <p>this certification contains 10 courses</p>
                     <ul>
