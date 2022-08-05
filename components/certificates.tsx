@@ -27,11 +27,11 @@ const certificates = () => {
                 </div>
                 <span>
                     <p>
-                        Andrew ng's machine learning course was the best online
-                        course's that I have done. It delves into the math
-                        behind machine learning algorithms and has challenging
-                        assignments where we implement the concepts in GNU
-                        Octave.
+                        Andrew ng&apos;s machine learning course was the best
+                        online course&apos;s that I have done. It delves into
+                        the math behind machine learning algorithms and has
+                        challenging assignments where we implement the concepts
+                        in GNU Octave.
                     </p>
                     <p>
                         Implementing a neural network to predict numbers from
@@ -53,7 +53,10 @@ const certificates = () => {
                 <h3>Data Science professional certificate</h3>
                 <h5>By IBM</h5>
                 <div style={{ width: "60%", maxWidth: "500px" }}>
-                    <Image src={ibmcertif} />
+                    <Image
+                        src={ibmcertif}
+                        alt="my ibm data science professional certificate"
+                    />
                 </div>
                 <div>
                     <a
