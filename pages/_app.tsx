@@ -6,6 +6,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
+                <link rel="shortcut icon" href="/fav-robot.png" />
+
                 {/* <!-- Primary Meta Tags --> */}
                 <title>Alwin Mathew</title>
                 <meta name="title" content="Alwin Mathew" />
