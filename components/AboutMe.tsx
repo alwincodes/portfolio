@@ -14,12 +14,17 @@ const AboutMe: React.FC<AboutMe> = () => {
                 <Image
                     src={avatar}
                     alt="profile image of alwin mathew"
-                    onClick={() => console.log("hey bro")}
+                    onClick={() =>
+                        console.log(
+                            "hello there! enjoy a youtube video https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                        )
+                    }
                 />
             </div>
             <p style={{ display: "inline-block" }}>
-                Hi my name is alwin mathew, I&apos;m a computer science student
-                currently based in kerala🌴, India.
+                Hi my name is alwin mathew, I was born and raised in Pala,
+                Kerala. Currently I&apos;m a computer science / data science
+                student currently based in Manchester, UK.{" "}
             </p>
             <p>
                 I have been interested in computer science from a very young
@@ -27,7 +32,7 @@ const AboutMe: React.FC<AboutMe> = () => {
                 undergraduates degree at St george&apos; college, aruvithura.
             </p>
             <p>
-                Currently I&apos;m set to join Msc Data science at university of
+                Currently I&apos;m studying Msc Data science at university of
                 salford on september 2022
             </p>
             <p>
